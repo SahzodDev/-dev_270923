@@ -62,6 +62,11 @@ namespace Ödev_270923
                 passwordIntensity = "Düşük";
             }
 
+            buyukHarfCheck = false;
+            kucukHarfCheck = false;
+            sayiCheck = false;
+            ozelCheck = false;
+
             lblSifreZorlugu.Text = passwordIntensity;
 
             if (lblSifreZorlugu.Text == "Düşük")
